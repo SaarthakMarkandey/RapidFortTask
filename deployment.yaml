@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: express-api
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: express-api
@@ -15,5 +15,6 @@ spec:
       containers:
         - name : express-api
           image: darkcoder347/saarthak:v1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000   
