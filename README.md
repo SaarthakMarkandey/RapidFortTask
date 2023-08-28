@@ -23,7 +23,7 @@ This is a simple REST-API bsed Web Server where you can submit a file and get co
 
 **Installing Kubectl(Minikube)**  
 
-  ```https://minikube.sigs.k8s.io/docs/start/```  
+  https://minikube.sigs.k8s.io/docs/start/  
   
 **Creating Kuberenetes Manifest Files**  
 
